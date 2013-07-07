@@ -13,7 +13,7 @@ import base64
 site_config = {
 	"title" : "知泉-blog",
 	#"url" : "http://localhost:8888",
-	"url" : "184.171.247.203:80",
+	"url" : "http://184.171.247.203:80",
 	"post_dir": os.getcwd() + os.sep + 'posts',
 	"photo_dir": os.getcwd() + os.sep + 'photoes',
 }
