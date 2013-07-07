@@ -12,8 +12,8 @@ import base64
 
 site_config = {
 	"title" : "知泉-blog",
-	#"url" : "http://localhost:8888",
 	"url" : """http://zhiquan.me""",
+	"port" : "80",
 	"post_dir": os.getcwd() + os.sep + 'posts',
 	"photo_dir": os.getcwd() + os.sep + 'photoes',
 }
@@ -184,7 +184,7 @@ application = tornado.web.Application([
 ], **settings)
 
 if __name__ == "__main__":
-	application.listen(8888)
+	application.listen(site_config['port'])
 	RSSMaker()
 	print "kzhiquan-blog is running on:" + site_config["url"]
 	tornado.ioloop.IOLoop.instance().start()
