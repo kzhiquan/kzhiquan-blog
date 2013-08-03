@@ -7,6 +7,7 @@ Thanks to MartianZ, the blog source code is brought from [him](https://github.co
 ## dependancy ##
 	
 	python2.7
+	easy_install
 	virtualenv
 	easy_install tornado
 	easy_install markdown
@@ -23,4 +24,11 @@ Thanks to MartianZ, the blog source code is brought from [him](https://github.co
 7. Access blog on local url: http://localhost:8888/;
 
 ## deployment ##
-1. Run the webservice forever: nohup python blog.py &
+1. Run the webservice forever: nohup python blog.py &;
+2. Produce ssh-key on VPS: ssh-keygen -t rsa;
+3. Copy ssh-key to Github: /root/.ssh/id_rsa.pub;
+4. Install Git on Ubuntu: apt-get update; apt-get install git-core;
+5. Install python dev env, for example: easy_install:sudo apt-get install python-setuptools python-dev build-essential;
+6. Install virtualenv: easy_install virtualenv;
+7. Stop apache2 server: sudo /etc/init.d/apache2 stop;
+
