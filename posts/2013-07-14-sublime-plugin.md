@@ -7,6 +7,7 @@ categories: literal
 ---
 
 ## 安装Package Control 插件的方法 ##
+
 1. 打开sublime2;
 2. 按下Control + `, 调用Console;
 3. 将以下代码粘进命令行中并回车;
@@ -14,7 +15,9 @@ categories: literal
 
 4. 重启 Sublime2 Text，如果在 Preferences -> Package Settings中见到Package Control这一项，就说明安装成功了;
 
+
 ## markdown preview ##
+
 1. sublime2 text 中编辑的 markdown 语法可以在浏览器中显示;
 2. shift+commad+p -> markdown preview:preview in browser;
 
