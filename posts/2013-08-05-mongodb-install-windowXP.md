@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "mongodb-install-WindowXP"
-date: 2013-03-10 21:25:14
+date: 2013-08-05 21:25:14
 comments: true
 categories: literal
 ---
